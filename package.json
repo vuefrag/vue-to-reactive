@@ -1,6 +1,6 @@
 {
   "name": "vue-to-reactive",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue 3 utility converting ref to reactive proxy object",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
