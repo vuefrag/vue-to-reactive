@@ -1,7 +1,7 @@
 {
   "name": "vue-to-reactive",
-  "version": "1.0.3",
-  "description": "Vue 3 utility converting ref to reactive proxy object",
+  "version": "1.0.4",
+  "description": "Vue 3 composable utility",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -15,7 +15,8 @@
   "files": [
     "dist",
     "logo.svg",
-    "banner.svg"
+    "banner.svg",
+    "README.md"
   ],
   "scripts": {
     "build": "unbuild",
@@ -23,23 +24,13 @@
     "postpublish": "cp README.github.md README.md"
   },
   "keywords": [
-    "vue",
-    "vue3",
-    "vue-3",
-    "composable",
-    "composition-api",
-    "vueuse",
     "reactive",
-    "reactivity",
-    "computed",
     "ref",
-    "state",
     "convert",
     "unwrap",
     "proxy",
     "object",
-    "no-value",
-    "toReactive"
+    "no-value"
   ],
   "author": "VueFrag",
   "license": "MIT",
