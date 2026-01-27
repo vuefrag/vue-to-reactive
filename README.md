@@ -12,7 +12,6 @@
   <a href="https://github.com/vuefrag/vue-to-reactive/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vue-to-reactive.svg" alt="license" /></a>
 </p>
 
-> Extracted from [VueUse](https://vueuse.org/) for standalone use.
 
 ## Installation
 
@@ -45,6 +44,9 @@ refState.value = { bar: 'foo' }
 console.log(state.foo) // => undefined
 console.log(state.bar) // => 'foo'
 ```
+
+> Extracted from [VueUse](https://vueuse.org/) for standalone use.
+
 
 ## License
 
