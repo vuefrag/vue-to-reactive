@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="vue-to-reactive" width="100%" />
+  <img src="logo.svg" alt="vue-to-reactive" width="180" />
 </p>
 
 <h1 align="center">vue-to-reactive</h1>
