@@ -4,7 +4,7 @@
 
 <h1 align="center">vue-to-reactive</h1>
 
-<p align="center"></p>
+<p align="center">A Vue 3 composition API utility that converts a ref into a reactive proxy object, enabling direct property access without .value while maintaining full reactivity.</p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/vue-to-reactive"><img src="https://img.shields.io/npm/v/vue-to-reactive.svg" alt="npm version" /></a>
@@ -20,21 +20,18 @@ npm install vue-to-reactive
 ## Usage
 
 ```ts
-import { toReactive } from '@vueuse/core'
+import { toReactive } from 'vue-to-reactive'
 import { ref } from 'vue'
 
-const refState = ref({ foo: 'bar' })
+const refState = {
+  foo: ref('bar'),
+  count: ref(0)
+}
 
-console.log(refState.value.foo) // => 'bar'
+const reactiveState = toReactive(refState)
 
-const state = toReactive(refState) // <--
-
-console.log(state.foo) // => 'bar'
-
-refState.value = { bar: 'foo' }
-
-console.log(state.foo) // => undefined
-console.log(state.bar) // => 'foo'
+console.log(reactiveState.foo) // 'bar'
+console.log(reactiveState.count) // 0
 ```
 
 ## License

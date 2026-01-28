@@ -1,7 +1,7 @@
 {
   "name": "vue-to-reactive",
-  "version": "1.0.5",
-  "description": "Vue 3 composable utility",
+  "version": "1.0.6",
+  "description": "Vue 3 utility converting ref to reactive proxy object",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -24,6 +24,11 @@
     "postpublish": "cp README.github.md README.md"
   },
   "keywords": [
+    "vue",
+    "vue3",
+    "composition-api",
+    "composable",
+    "vueuse",
     "reactive",
     "ref",
     "convert",
