@@ -1,6 +1,6 @@
 {
   "name": "vue-to-reactive",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Vue 3 composable utility",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
