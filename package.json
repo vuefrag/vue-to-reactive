@@ -1,6 +1,6 @@
 {
   "name": "vue-to-reactive",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Vue 3 utility converting ref to reactive proxy object",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -46,7 +46,7 @@
   },
   "homepage": "https://github.com/vuefrag/vue-to-reactive#readme",
   "peerDependencies": {
-    "vue": ">=3.0.0"
+    "vue": "^3.5.0"
   },
   "devDependencies": {
     "unbuild": "^2.0.0",
